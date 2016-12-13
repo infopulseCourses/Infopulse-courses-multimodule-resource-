@@ -22,11 +22,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="newProject" />
+        <module name="1_hibernate_bases" />
+        <module name="2_annotated_entity" />
+        <module name="2_dao_pattern" />
+        <module name="2_entity_manager" />
+        <module name="Lesson2_hibernate" />
+        <module name="Lesson2_HIbernate_EM" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="newProject" target="1.8" />
+      <module name="1_hibernate_bases" target="1.5" />
+      <module name="2_annotated_entity" target="1.5" />
+      <module name="2_dao_pattern" target="1.5" />
+      <module name="2_entity_manager" target="1.8" />
+      <module name="Lesson2_hibernate" target="1.5" />
+      <module name="Lesson2_HIbernate_EM" target="1.8" />
+      <module name="newProject" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
