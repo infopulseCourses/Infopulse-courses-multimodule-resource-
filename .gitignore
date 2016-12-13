@@ -10,5 +10,8 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/.idea/
-/newProject/newProject.iml
+/3_many_to_many_hibernate/many_to_many_hibernate.iml
+/2_entity_manager/2_entity_manager.iml
+/2_dao_pattern/2_dao_pattern.iml
+/2_annotated_entity/2_annotated_entity.iml
+/1_hibernate_bases/1_hibernate_bases.iml
