@@ -25,7 +25,6 @@
         <module name="1_hibernate_bases" />
         <module name="2_annotated_entity" />
         <module name="2_dao_pattern" />
-        <module name="2_entity_manager" />
         <module name="Lesson2_hibernate" />
         <module name="Lesson2_HIbernate_EM" />
       </profile>
