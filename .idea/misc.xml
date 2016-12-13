@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/newProject/pom.xml" />
+        <option value="$PROJECT_DIR$/1_hibernate_bases/pom.xml" />
+        <option value="$PROJECT_DIR$/2_annotated_entity/pom.xml" />
+        <option value="$PROJECT_DIR$/2_dao_pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/2_entity_manager/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" default="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="false" assert-keyword="false" jdk-15="false" />
 </project>
