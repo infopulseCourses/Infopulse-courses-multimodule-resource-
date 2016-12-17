@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/3_many_to_many_hibernate/pom.xml" />
         <option value="$PROJECT_DIR$/4_many_to_many/pom.xml" />
         <option value="$PROJECT_DIR$/4_ono_to_one/pom.xml" />
+        <option value="$PROJECT_DIR$/4_one_to_one/pom.xml" />
       </list>
     </option>
   </component>
