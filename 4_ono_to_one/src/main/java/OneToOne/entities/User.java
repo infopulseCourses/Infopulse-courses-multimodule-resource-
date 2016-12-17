@@ -18,6 +18,7 @@ public class User {
     private String surname;
 
     @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="phone_id")
     private Phone phone;
 
     public Phone getPhone() {
