@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>HibernateManyToMany</groupId>
-  <artifactId>ManyToMany</artifactId>
+  <groupId>3_many_to_many_hibernate</groupId>
+  <artifactId>3_many_to_many_hibernate</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>ManyToMany</name>
+  <name>3_many_to_many_hibernate</name>
   <url>http://maven.apache.org</url>
   <build>
         <finalName>WebChat</finalName>

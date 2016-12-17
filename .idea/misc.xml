@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/2_dao_pattern/pom.xml" />
         <option value="$PROJECT_DIR$/2_entity_manager/pom.xml" />
         <option value="$PROJECT_DIR$/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/3_many_to_many_hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/4_many_to_many/pom.xml" />
+        <option value="$PROJECT_DIR$/4_ono_to_one/pom.xml" />
       </list>
     </option>
   </component>
