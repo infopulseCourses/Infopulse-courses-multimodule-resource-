@@ -21,6 +21,7 @@ public class User {
 
     private String password;
 
+    @Temporal(value = TemporalType.TIMESTAMP)//maps java.util.DateTime to sql native type
     private Date createDate;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
