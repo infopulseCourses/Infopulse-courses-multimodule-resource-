@@ -1,8 +1,6 @@
 package OneToOne.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * Created by mtarasenko on 17.12.16.
@@ -14,7 +12,19 @@ public class Phone {
     @GeneratedValue
     private Long id;
 
+    @Column(name="phone_number")
     private String value;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    @OneToOne(fetch = FetchType.LAZY, orphanRemoval = true, cascade = CascadeType.ALL)
+    private User user;
 
     public Long getId() {
         return id;
